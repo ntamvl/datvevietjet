@@ -34,6 +34,15 @@ body, html {
 	height: 100%;
 	/*font-family: lato;*/
 	font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+	background: #ffcd00;
+  background: -moz-linear-gradient(top,#ffc600 0,#ffbe00 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffc600),color-stop(100%,#ffbe00));
+  background: -webkit-linear-gradient(top,#ffc600 0,#ffbe00 100%);
+  background: -o-linear-gradient(top,#ffc600 0,#ffbe00 100%);
+  background: -ms-linear-gradient(top,#ffc600 0,#ffbe00 100%);
+  background: linear,to bottom,#ffc600 0,#ffbe00 100%;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc600',endColorstr='#ffbe00',GradientType=0);
 }
 body.admin-bar .navbar-fixed-top {
 	position: fixed;
@@ -915,7 +924,8 @@ html, body {
 
 .hotline {
   font-size: 13px;
-  margin: 20px 0 0px 0;
+  margin: 10px 0 10px 0;
+  padding: 0px 20px 0 20px;
 }
 
 .hotline h2 {
@@ -1189,3 +1199,12 @@ h3.title-flight-way {
 }
 
 /* end begin cac hinh thuc dat ve*/
+
+.bg-white {
+	background-color: #fff;
+}
+
+.spacer-1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

@@ -1,25 +1,8 @@
 <?php get_header(); ?>
 
-<div class="col-md-3 sidebar">
+<?php get_template_part('_hotline_bar'); ?>
 
-  <?php get_sidebar( 'primary' ); ?>
-
-</div>
-
-<!-- <div class="col-md-3">
-  <?php get_template_part( '_hinh-thuc-dat-ve' ); ?>
-</div>
-
-<div class="col-md-3">
-  <?php get_template_part( '_hinh-thuc-thanh-toan' ); ?>
-</div> -->
-
-<div class="col-md-4">
-  <div style="height: 20px; line-height: 20px;"></div>
-  <?php get_template_part( '_sidebar_tabs' ); ?>
-</div>
-
-<div class="col-md-5 cont-grid">
+<div class="col-md-12 cont-grid bg-white">
 
   <?php // if is home and is not paged show featured post
 
@@ -44,7 +27,7 @@
 
   <div class="grid">
     <?php //query_posts ('posts_per_page=1');
-      query_posts( array( 'posts_per_page' => 2 ) );
+      // query_posts( array( 'posts_per_page' => 2 ) );
     ?>
 
     <?php if (have_posts()) :?><?php while(have_posts()) : the_post(); ?>
@@ -132,14 +115,14 @@
 
     $big = 999999999; // need an unlikely integer
 
-    // echo paginate_links( array(
-    //   'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-    //   'format' => '?paged=%#%',
-    //   'current' => max( 1, get_query_var('paged') ),
-    //   'total' => $wp_query->max_num_pages,
-    //   'prev_text' => __('&laquo; Trước'),
-    //   'next_text' => __('Sau &raquo;'),
-    // ) );
+    echo paginate_links( array(
+      'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+      'format' => '?paged=%#%',
+      'current' => max( 1, get_query_var('paged') ),
+      'total' => $wp_query->max_num_pages,
+      'prev_text' => __('&laquo; Trước'),
+      'next_text' => __('Sau &raquo;'),
+    ) );
     ?>
 
     <?php wp_reset_query(); ?>
