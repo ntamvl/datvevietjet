@@ -37,6 +37,16 @@
     return $query;
 	}
 
+	// Add body classes
+	add_action( 'body_class', 'add_main_background');
+	function add_main_background( $classes ) {
+		if ( is_home() )
+		{
+		  $classes[] = 'main_background';
+		}
+		return $classes;
+	}
+
 ?>
 <?php // REPLY comment script
 
