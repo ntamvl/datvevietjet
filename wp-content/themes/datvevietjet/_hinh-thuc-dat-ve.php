@@ -23,47 +23,6 @@
         <table class="table table-dat-ve">
           <tr>
             <td class="col-dat-ve-1">
-              <i class="fa fa-comments icon-datve"></i>
-            </td>
-            <td class="col-dat-ve-2">
-              <div class="text-big">Qua chat Yahoo hoặc chat trên website</div>
-                <div class="text-small">
-
-                <div class="yahoo">
-                    <a href="ymsgr:sendIM?fb.vn01">
-                        <img class="img-responsive" border="0" src="http://opi.yahoo.com/online?u=fb.vn01&m=g&t=1&l=us">
-                    </a>
-                </div>
-
-                  <div class="yahoo">
-                    <a href="ymsgr:sendIM?fb.vn02">
-                        <img class="img-responsive" border="0" src="http://opi.yahoo.com/online?u=fb.vn02&m=g&t=1&l=us">
-                    </a>
-                </div>
-
-                  <div class="yahoo">
-                    <a href="ymsgr:sendIM?fb.vn03">
-                        <img class="img-responsive" border="0" src="http://opi.yahoo.com/online?u=fb.vn03&m=g&t=1&l=us">
-                    </a>
-                </div>
-
-                  <div class="yahoo">
-                    <a href="ymsgr:sendIM?fb.vn04">
-                        <img class="img-responsive" border="0" src="http://opi.yahoo.com/online?u=fb.vn04&m=g&t=1&l=us">
-                    </a>
-                </div>
-                </div>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="row form-group">
-      <div class="col-md-12 no-margin-lr">
-        <table class="table table-dat-ve">
-          <tr>
-            <td class="col-dat-ve-1">
               <i class="fa fa-phone icon-datve"></i>
             </td>
             <td class="col-dat-ve-2">
@@ -92,8 +51,7 @@
             </td>
             <td class="col-dat-ve-2">
               <div class="text-big">Tại văn phòng Flightbooking</div>
-              <div class="text-small">Lầu 6 Tòa Nhà TS, Số 17 Đường số 2, Cư xá Đô Thành, <br />
-                Phường 4, Quận 3, TP. Hồ Chí Minh</div>
+              <div class="text-small">A01, lầu 4, Tòa nhà Mirae Business Center, 268 Tô Hiến Thành, P.15, Q.10, TP. Hồ Chí Minh</div>
             </td>
           </tr>
         </table>
